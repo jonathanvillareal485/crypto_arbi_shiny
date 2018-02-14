@@ -8,3 +8,4 @@ Webapp: https://glueckert.shinyapps.io/crypto_arbi/
 
 Blog: https://medium.com/@santa24/crypto-arbitrage-musings-5faacf9251d7
 
+![alt text](demo.gif)
