@@ -12,13 +12,15 @@ library(V8)
 #devtools::install_github('andrewsali/shinycssloaders')
 library(shinycssloaders)
 
+SQL_USER = read_file("cryptoarbi_sql_user.key")
+SQL_PW = read_file("cryptoarbi_sql_pw.key")
 
 "%+%" <- function(x,y) {paste(x,y,sep="")}
 "%g%" <- function(x,y) {x[grepl(y,x)]}
 "%gp%" <- function(x,y) {x[grepl(y,x,perl=TRUE)]}
 
 sql_get = function(query){
-  con <- dbConnect(MySQL(), user="cryptowatch", password="!algotrade!", dbname="cryptowatch", host="85.214.37.84") #85.214.37.84
+  con <- dbConnect(MySQL(), user=SQL_USER, password=SQL_PW, dbname="cryptowatch", host="85.214.37.84") #85.214.37.84
   rs = dbSendQuery(con, query)
   p = as.data.table(fetch(rs, n = -1))
   if ("time" %in% names(p) ) {p[,time :=as.POSIXct(time) ]}
