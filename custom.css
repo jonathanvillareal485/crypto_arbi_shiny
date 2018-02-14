@@ -1,0 +1,60 @@
+body {
+  
+  font-family: 'Roboto' !important;
+  background-color: #fafafa !important;
+  font-size: 12px;
+}
+
+
+span.iconbig {
+  font-size: 3em !important;
+}
+
+
+
+.boxhead{
+  color: #428bca !important;
+  font-size: 14px;
+}
+
+
+.well {
+  background-color: #ffffff ;
+}
+
+
+div.datatables  {
+  
+  font-size: 10px !important;
+}
+
+.dataTable tbody td {
+   padding: 4px 13px;
+ }
+ 
+.dataTable thead tbody th {
+   padding: 4px 13px;
+ }
+ 
+
+#loading-content {
+  position: absolute;
+  background: #000000;
+  opacity: 0.9;
+  z-index: 9999999;
+  left: 0;
+  right: 0;
+  height: 3000px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+
+#loading-p {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50px;
+  transform: translateY(-50%);
+}
+

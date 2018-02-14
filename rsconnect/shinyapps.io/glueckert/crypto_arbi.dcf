@@ -1,0 +1,13 @@
+name: crypto_arbi
+title: crypto_arbi
+username:
+account: glueckert
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 257506
+bundleId: 1221808
+url: https://glueckert.shinyapps.io/crypto_arbi/
+when: 1518564237.29761
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: arbi_shiny.csv
