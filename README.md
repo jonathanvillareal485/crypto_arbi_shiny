@@ -4,8 +4,6 @@ The engine collects all crypto currency pair data from ~20 exchanges via www.cry
 
 Data is collected and processed on a server and pushed to the Shiny R environment all 30 minutes. Details about the arbitrage strategies are covered in one of my blog posts.
 
-Webapp: https://glueckert.shinyapps.io/crypto_arbi/
-
 Blog: https://medium.com/@santa24/crypto-arbitrage-musings-5faacf9251d7
 
 ![alt text](demo.gif)
